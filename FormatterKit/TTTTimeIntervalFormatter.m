@@ -210,7 +210,7 @@ static inline NSComparisonResult NSCalendarUnitCompareSignificance(NSCalendarUni
             case TTTCalendarUnitYear:
                 return singular ? NSLocalizedStringFromTableInBundle(@"yr", @"FormatterKit", [NSBundle bundleForClass:[self class]],  @"Year Unit (Singular, Abbreviated)") : NSLocalizedStringFromTableInBundle(@"yrs", @"FormatterKit", [NSBundle bundleForClass:[self class]],  @"Year Unit (Plural, Abbreviated)");
             case TTTCalendarUnitMonth:
-                return singular ? NSLocalizedStringFromTableInBundle(@"mo", @"FormatterKit", [NSBundle bundleForClass:[self class]],  @"Month Unit (Singular, Abbreviated)") : NSLocalizedStringFromTableInBundle(@"mos", @"FormatterKit", [NSBundle bundleForClass:[self class]],  @"Month Unit (Plural, Abbreviated)");
+                return singular ? NSLocalizedStringFromTableInBundle(@"mo", @"FormatterKit", [NSBundle bundleForClass:[self class]],  @"Month Unit (Singular, Abbreviated)") : NSLocalizedStringFromTableInBundle(@"months", @"FormatterKit", [NSBundle bundleForClass:[self class]],  @"Month Unit (Plural, Abbreviated)");
             case TTTCalendarUnitWeek:
                 return singular ? NSLocalizedStringFromTableInBundle(@"wk", @"FormatterKit", [NSBundle bundleForClass:[self class]],  @"Week Unit (Singular, Abbreviated)") : NSLocalizedStringFromTableInBundle(@"wks", @"FormatterKit", [NSBundle bundleForClass:[self class]],  @"Week Unit (Plural, Abbreviated)");
             case TTTCalendarUnitDay:
